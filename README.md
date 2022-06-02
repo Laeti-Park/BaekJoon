@@ -1,2 +1,3 @@
 # BaekJoon
-- 백준 문제 풀이 : https://www.acmicpc.net/user/creator98
+- BaekJoon Profile : https://www.acmicpc.net/user/creator98
+- BaekJoon Problem Solving : https://blex.me/@Laeti-Park/series/boj-ps
