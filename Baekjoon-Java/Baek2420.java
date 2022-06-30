@@ -26,6 +26,7 @@ public class Baek2420 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); // 키보드 입력
         String[] str = reader.readLine().split(" "); // 키보드 입력 받은 것을 공백으로 분리
 
-        System.out.println(Math.abs(Long.parseLong(str[0])-Long.parseLong(str[1]))); // 두 값을 계산하고 Math.abs()를 사용해 절대값 반환
+        // 두 값을 계산하고 Math.abs()를 사용해 절대값 반환
+        System.out.println(Math.abs(Long.parseLong(str[0]) - Long.parseLong(str[1])));
     }
 }
