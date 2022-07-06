@@ -19,7 +19,7 @@ public class Baek10250 {
 
             // H : 높이, W : 방 개수, N : 손님 수
             int H = Integer.parseInt(st.nextToken());
-            int W = Integer.parseInt(st.nextToken());
+            Integer.parseInt(st.nextToken());
             int N = Integer.parseInt(st.nextToken());
 
             int Y = N % H == 0 ? H : N % H;
