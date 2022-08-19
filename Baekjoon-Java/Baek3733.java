@@ -29,13 +29,14 @@ import java.util.Scanner;
 
 public class Baek3733 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n, s;
+        try (Scanner scanner = new Scanner(System.in)) {
+            int n, s;
 
-        while(scanner.hasNext()){
-            n = scanner.nextInt();
-            s = scanner.nextInt();
-            System.out.println(s/(n+1));
+            while (scanner.hasNext()) {
+                n = scanner.nextInt();
+                s = scanner.nextInt();
+                System.out.println(s / (n + 1));
+            }
         }
     }
 }
