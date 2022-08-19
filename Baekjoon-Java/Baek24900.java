@@ -1,5 +1,3 @@
-package Blossom.Database;
-
 public class Baek24900 {
     public static void main(String[] args) {
         System.out.println("                                                           :8DDDDDDDDDDDDDD$.                                           \n" +
