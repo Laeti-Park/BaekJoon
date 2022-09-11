@@ -11,13 +11,14 @@ public class Baek2161 {
         int caseNum = Integer.parseInt(br.readLine());
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < caseNum; i++) {
-            queue.offer(i + 1);
+            queue.add(i + 1);
         }
 
         while (queue.size() != 1) {
             System.out.print(queue.poll().toString() + " ");
             queue.add(queue.poll());
         }
+
         System.out.print(queue.poll()); 
     }
 }
