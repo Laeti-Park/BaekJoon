@@ -23,7 +23,7 @@ public class Baek5543 {
         }
 
         if (drink > num[4])
-            burger = num[4];
+            drink = num[4];
 
         System.out.println(burger + drink - 50);
     }
