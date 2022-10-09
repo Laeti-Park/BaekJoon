@@ -9,5 +9,6 @@ def cal(n):
             cnt += 1
         return cnt
 
+
 num = int(input())
 print(cal(num))
