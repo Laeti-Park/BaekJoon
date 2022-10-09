@@ -4,7 +4,5 @@ for i in range(case):
     sp = mstr.find(' ')
     for j in range(sp+1, len(mstr)):
         for k in range(int(mstr[:sp])):
-            print(mstr[j], end ='')
+            print(mstr[j], end='')
     print()
-    
-    
