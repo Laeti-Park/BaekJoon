@@ -4,4 +4,4 @@ if case[1] > case[2]:
 elif case[2] - case[1] == 0:
     print(-1)
 else:
-    print(int(case[0]/(case[2] - case[1])+ 1))
+    print(int(case[0]/(case[2] - case[1]) + 1))
