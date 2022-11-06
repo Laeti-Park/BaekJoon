@@ -1,5 +1,5 @@
 num = int(input())
-N = input().split(' ')
+N = list(map(int, input().split(' ')))
 N.sort()
 list = []
 sum = 0
