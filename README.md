@@ -1,6 +1,6 @@
 # Baekjoon
 
-<img alt="Baekjoon Online Judge" src="https://d2gd6pc034wcta.cloudfront.net/images/logo@2x.png" width="50%" style="background-color: white; border-radius: 4px;"/>
+<img alt="Baekjoon Online Judge" src="https://d2gd6pc034wcta.cloudfront.net/images/logo@2x.png" width="50%"/>
 
 ![](https://img.shields.io/badge/Python-3.10-DDDDDD?style=flat&logo=Python&labelColor=3776AB&logoColor=FFFFFF)
 ![](https://img.shields.io/badge/Java-1.8.0__342-DDDDDD?style=flat&logo=OpenJDK&labelColor=F8981D&logoColor=FFFFFF)
