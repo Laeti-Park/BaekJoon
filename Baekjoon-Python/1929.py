@@ -3,6 +3,7 @@ import sys
 
 input = sys.stdin.readline
 
+
 def is_prime(parse_int):
     if parse_int == 1:
         return False
