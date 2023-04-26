@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=VisualStudioCode&logoColor=FFFFFF)  
 [![BLEX](https://img.shields.io/badge/BLEX-181717?style=flat&style=for-the-badge&logo=GITHUB&logoColor=FFFFFF)](https://blex.me/@Laeti-Park)
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=creator98)](https://solved.ac/creator98)  ㅔ
+프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=creator98)](https://solved.ac/creator98)
 
 ### 👤 프로필
 [![Solved.ac
