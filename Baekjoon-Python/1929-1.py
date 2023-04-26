@@ -1,3 +1,5 @@
+# 1929번 소수 구하기-1
+
 import math
 import sys
 
