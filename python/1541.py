@@ -1,3 +1,5 @@
+# 1541번 잃어버린 괄호
+
 formula = input().split('-')
 sum = 0
 

@@ -1,3 +1,5 @@
+# 1009번 분산처리
+
 N = int(input())
 
 for i in range(N):

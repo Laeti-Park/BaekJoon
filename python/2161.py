@@ -1,3 +1,5 @@
+# 2161번 카드-1 
+
 case = int(input())
 queue = []
 for i in range(case):

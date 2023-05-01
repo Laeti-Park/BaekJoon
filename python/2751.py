@@ -1,3 +1,5 @@
+# 2751번 수 정렬하기-2
+
 import sys
 
 num = int(input())

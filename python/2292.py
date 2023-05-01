@@ -1,3 +1,5 @@
+# 2292번 벌집
+
 def cal(n):
     if n == 1:
         return 1
