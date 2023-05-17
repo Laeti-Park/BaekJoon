@@ -1,3 +1,5 @@
+# 1331번 나이트 투어
+
 board = [[0] * 6 for _ in range(6)]
 
 knight = [(-2, -1), (-2, 1), (2, -1), (2, 1),
@@ -22,6 +24,7 @@ for _ in range(35):
     move = input()
     if board[ord(move[0]) - ord('A')][int(move[1]) - 1] == 1:
         vaild = False
+        break
     else:
         if vaild:
             vaild = moveKnight(last)
