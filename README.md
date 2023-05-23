@@ -16,5 +16,5 @@
 - [Baekjoon Online Judge](https://boj.kr/u/creator98)
 - [solved.ac](https://solved.ac/profile/creator98)
 
-### 📝 문제 풀이 정리
-- [BLEX 블로그](https://blex.me/@Laeti-Park/series/boj-ps)
+### 📖 학습 정리
+- [Laeti-Park, “BOJ-PS” 시리즈](https://blex.me/@Laeti-Park/series/boj-ps)
