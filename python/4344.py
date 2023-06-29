@@ -11,4 +11,9 @@ for _ in range(case):
         if (avg < test[j]):
             count += 1
 
-    print(f"{round(count / test[0] * 100, 3):.3f}%")
+    roundOff = 0
+    if len(str(count / test[0])) > 7:
+        if int(str(count / test[0])[7]) > 4:
+            roundOff = 0.001
+
+    print(f"{round(count / test[0] * 100, 3) + roundOff:.3f}%")
