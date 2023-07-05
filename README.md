@@ -17,4 +17,4 @@
 - [solved.ac](https://solved.ac/profile/creator98)
 
 ### 📖 학습 정리
-[Laeti-Park, “BOJ-PS” 시리즈](https://blex.me/@Laeti-Park/series/boj-ps)
+- [Laeti-Park, “BOJ-PS” 시리즈](https://blex.me/@laetipark/series/boj-ps)
