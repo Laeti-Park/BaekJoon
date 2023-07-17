@@ -7,7 +7,7 @@ sorted(cards)
 
 sum = 0
 
-for i in range(N):
+for i in range(N-2):
     if cards[i] > M:
         break
     for j in range(i+1, N):
