@@ -6,8 +6,6 @@ const rl = readline.createInterface({
 });
 
 let input = [];
-let n = 0;
-let count = 0;
 
 rl.on('line', line => {
   input = line.split(' ').map(Number);
@@ -24,7 +22,6 @@ const solution = (answers) => {
   const correct = { 1: 0, 2: 0, 3: 0 };
 
   answers.map((question, index) => {
-    console.log(question, student1[index % 5], student2[index % 8], student3[index % 10], question === student1[index % 5], question === student2[index % 8], question === student3[index % 10]);
     correct[1] += question === student1[index % 5] ? 1 : 0;
     correct[2] += question === student2[index % 8] ? 1 : 0;
     correct[3] += question === student3[index % 10] ? 1 : 0;
