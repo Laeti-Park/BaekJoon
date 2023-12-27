@@ -7,15 +7,9 @@ const rl = readline.createInterface({
 });
 
 let input = '';
-let count = 0;
 
 rl.on('line', (line) => {
   input = line.split(' ');
-  count++;
-
-  if (count > 1) {
-    rl.close();
-  }
 }).on('close', () => {
   const answer = solution(input[0], input[1]);
   console.log(answer);
