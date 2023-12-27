@@ -17,6 +17,4 @@ rl.on('line', (line) => {
   console.log(answer);
 });
 
-function solution(arr) {
-  return arr.join('');
-}
+const solution = arr => arr.join('');
