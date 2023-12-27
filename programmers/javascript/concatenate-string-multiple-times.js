@@ -16,6 +16,4 @@ rl.on('line', (line) => {
   console.log(answer);
 });
 
-function solution(a, b) {
-  return Number(a + b) < Number(b + a) ? Number(b + a) : Number(a + b);
-}
+const solution = (a, b) => Number(a + b) < Number(b + a) ? Number(b + a) : Number(a + b);
