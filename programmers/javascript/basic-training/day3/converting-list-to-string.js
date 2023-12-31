@@ -1,4 +1,4 @@
-// https://school.programmers.co.kr/learn/courses/30/lessons/181942
+// https://school.programmers.co.kr/learn/courses/30/lessons/181941
 
 const readline = require('readline');
 const rl = readline.createInterface({
@@ -7,7 +7,6 @@ const rl = readline.createInterface({
 });
 
 let input = '';
-let count = 0;
 
 rl.on('line', (line) => {
   input = line.split(' ');
