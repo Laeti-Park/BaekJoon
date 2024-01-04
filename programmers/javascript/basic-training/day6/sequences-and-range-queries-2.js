@@ -30,11 +30,11 @@ rl.on('line', (line) => {
 
 const solution = (arr, queries) => {
   let answer = [];
-  queries.map(item => {
-    let temp = arr.slice(item[0], item[1]);
-    console.log(temp);
-    answer += (temp.filter(num => item[2] < num)).sort()[0];
-  });
+  for (let i = 0; i < queries.length; i++) {
+    const item = queries[i];
+    const temp = arr.slice(item[0], item[1] + 1);
+    answer.push((temp.filter(num => item[2] < num)).sort((a, b) => a - b)[0] || -1);
+  }
 
   return answer;
 };
