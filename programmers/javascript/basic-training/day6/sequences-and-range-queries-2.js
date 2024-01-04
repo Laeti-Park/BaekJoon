@@ -32,8 +32,8 @@ const solution = (arr, queries) => {
   let answer = [];
   queries.map(item => {
     let temp = arr.slice(item[0], item[1]);
-    console.log(temp)
-    answer += (temp.filter(num => item[2] < num)).sort()[0]
+    console.log(temp);
+    answer += (temp.filter(num => item[2] < num)).sort()[0];
   });
 
   return answer;
