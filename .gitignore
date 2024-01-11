@@ -115,3 +115,10 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/coding-test.iml
+/.idea/deployment.xml
+/.idea/modules.xml
+/.idea/codeStyles/Project.xml
+/.idea/vcs.xml
