@@ -19,12 +19,21 @@ rl.on('line', (line) => {
 const solution = (code) => {
   let answer = '';
   let mode = 0;
+
+  // idx를 0 부터 code의 길이 - 1 까지 1씩 키워나가면서
   for (let i = 0; i < code.length; i++) {
+
+    // code[idx] === '1' or code[idx] !== '1'
+    // code[idx] === '1'
     if (code[i] === '1') {
+      // mode = 0 => (0 + 1)1을 2로 나눈 나머지 = 1
+      // mode = 1 => (1 + 1)2를 2로 나눈 나머지 = 0
       mode = (mode + 1) % 2;
-    } else if (mode === 0 && (i + 1) % 2 === 1) {
+    }
+    // code[idx] !== '1'
+    else if (mode === 0 && i % 2 === 0) { // mode가 0일 때 && idx가 짝수일 때
       answer += code[i];
-    } else if (mode === 1 && (i + 1) % 2 === 0) {
+    } else if (mode === 1 && i % 2 === 1) { // mode가 1일 때 && idx가 홀수일 때
       answer += code[i];
     }
   }
