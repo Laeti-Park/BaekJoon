@@ -7,17 +7,12 @@ const rl = readline.createInterface({
 });
 
 let input = '';
-let count = 0;
 
 rl.on('line', (line) => {
   input = line.split(' ');
-  count++;
-
-  if (count > 2) {
-    rl.close();
-  }
+  rl.close();
 }).on('close', () => {
-  const answer = solution(input[0], input[1], input[2]);
+  const answer = solution(input[0], input[1], Number(input[2]));
   console.log(answer);
 });
 
