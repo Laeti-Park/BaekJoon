@@ -17,7 +17,7 @@ rl.on('line', (line) => {
 });
 
 const solution = (ineq, eq, n, m) => {
-  let answer = 1;
+  let answer;
   if (ineq === '<') {
     answer = n <= m ? 1 : 0;
   } else {
