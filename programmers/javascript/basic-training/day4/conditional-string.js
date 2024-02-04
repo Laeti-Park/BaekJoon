@@ -9,10 +9,10 @@ const rl = readline.createInterface({
 let input = '';
 
 rl.on('line', (line) => {
-  input = line;
+  input = line.split(' ');
   rl.close();
 }).on('close', () => {
-  const answer = solution(Number(input));
+  const answer = solution(input[0], input[1], Number(input[2]),Number(input[3]));
   console.log(answer);
 });
 
@@ -22,11 +22,6 @@ const solution = (ineq, eq, n, m) => {
     answer = n <= m ? 1 : 0;
   } else {
     answer = n >= m ? 1 : 0;
-  }
-  if (answer === 1) {
-    if (eq === '!=') {
-      answer = n === m ? 0 : 1;
-    }
   }
 
   return answer;
