@@ -23,14 +23,12 @@ const solution = (a, b, c) => {
   number[b] = ++number[b] || 1;
   number[c] = ++number[c] || 1;
 
-  let maxValue = -Infinity; // 최댓값을 저장할 변수 초기화
+  let maxValue = -Infinity;
 
   for (let key in number) {
-    if (number.hasOwnProperty(key)) {
-      let value = number[key];
-      if (value > maxValue) {
-        maxValue = value;
-      }
+    let value = number[key];
+    if (value > maxValue) {
+      maxValue = value;
     }
   }
   if (maxValue === 3) {
