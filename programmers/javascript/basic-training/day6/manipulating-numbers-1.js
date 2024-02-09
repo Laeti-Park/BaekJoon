@@ -25,20 +25,21 @@ rl.on('line', (line) => {
   console.log(answer);
 });
 
-const solution = (n, control) => {
-  let answer = n;
-  const strArray = control.split('');
-  strArray.map(item => {
-    if (item === 'w') {
-      answer += 1;
-    } else if (item === 's') {
-      answer -= 1;
-    } else if (item === 'd') {
-      answer += 10;
-    } else if (item === 'a') {
-      answer -= 10;
+const solution = (numLog) => {
+  let answer = '';
+  for (let i = 1; i < numLog.length; i++) {
+    const currNum = numLog[i];
+    const prevNum = numLog[i - 1];
+    if (currNum - prevNum === 1) {
+      answer += 'w';
+    } else if (currNum - prevNum === -1) {
+      answer += 's';
+    } else if (currNum - prevNum === 10) {
+      answer += 'd';
+    } else if (currNum - prevNum === -10) {
+      answer += 'a';
     }
-  });
+  }
 
   return answer;
 };
