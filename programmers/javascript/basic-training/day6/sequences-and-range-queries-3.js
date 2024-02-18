@@ -16,7 +16,7 @@ rl.on('line', (line) => {
   } else {
     queries = line.split(' ');
     queries = queries.map(item => {
-      return item.split('');
+      return item.split(',');
     });
   }
   count++;
