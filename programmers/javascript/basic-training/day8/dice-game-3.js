@@ -25,7 +25,6 @@ const solution = (a, b, c, d) => {
   let entries = Object.entries(obj);
   entries.sort((a, b) => b[1] - a[1]);
   let sortedKeys = entries.map(entry => entry[0]);
-  console.log(sortedKeys);
 
   if (obj[sortedKeys[0]] === 4) {
     return Number(sortedKeys[0]) * 1111;
