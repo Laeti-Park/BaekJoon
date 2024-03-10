@@ -1,4 +1,4 @@
-// https://school.programmers.co.kr/learn/courses/30/lessons/181910
+// https://school.programmers.co.kr/learn/courses/30/lessons/181880
 
 const readline = require('readline');
 const rl = readline.createInterface({
