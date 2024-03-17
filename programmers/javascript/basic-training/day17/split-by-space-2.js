@@ -12,7 +12,7 @@ rl.on('line', (line) => {
   myString = line;
   rl.close();
 }).on('close', () => {
-  const answer = solution(strArr);
+  const answer = solution(myString);
   console.log(answer);
 });
 
