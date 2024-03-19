@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 let arr = [];
-let k = [];
+let k = 0;
 let count = 0;
 
 rl.on('line', (line) => {
