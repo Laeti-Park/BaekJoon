@@ -21,7 +21,7 @@ rl.on('line', (line) => {
     rl.close();
   }
 }).on('close', () => {
-  const answer = solution(input, queries);
+  const answer = solution(num_list, n);
   console.log(answer);
 });
 
