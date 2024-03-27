@@ -13,6 +13,7 @@ rl.on('line', (line) => {
   n = n.map(item => {
     return item.split(',').map(Number);
   });
+  rl.close();
 }).on('close', () => {
   const answer = solution(order);
   console.log(answer);
