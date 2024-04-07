@@ -15,7 +15,7 @@ rl.on('line', (line) => {
   });
   rl.close();
 }).on('close', () => {
-  const answer = solution(order);
+  const answer = solution(n);
   console.log(answer);
 });
 
