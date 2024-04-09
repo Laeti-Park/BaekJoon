@@ -12,7 +12,7 @@ let count = 0;
 
 rl.on('line', (line) => {
   if (count === 0) {
-    n = line;
+    n = Number(line);
   } else {
     input = line.split(' ').map(Number);
   }
